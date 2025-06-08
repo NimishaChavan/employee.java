@@ -66,6 +66,7 @@ this.salary = salary;
 public void displayEmployeeDetails() {
 displayName();
 displayAge();
+System.out.println("Employee details");
 System.out.println("Employee ID: " + empId);
 System.out.println("Salary: $" + salary);
 }
